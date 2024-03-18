@@ -8,11 +8,13 @@ print(a)
 print(b)
 
 # qui la prima soluzione 
-a = 11
-b = 5
+#a = 11
+#b = 5
 
 # inserire ulteriori soluzioni qui
-
+c = a
+a = b
+b = c
 
 print(a)
 print(b)
