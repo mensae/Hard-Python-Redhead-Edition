@@ -155,3 +155,40 @@ else:
 	print("c1 è falsa")
 
 # Si osservi che se c1 è falsa, c2 e c3 non verranno mai verificate, se c1 è vera ma c2 è falsa, c3 non verrà mai verificata
+
+
+#aiuto compito
+if c1:
+#vera c1
+  if c2: 
+    #vera c2 (ovviamente vera c1)
+  else: 
+    #falsa c2 (ovviamente vera c1)
+else:
+  #falsa c1
+
+
+#prova compito 1
+if nome_utente == user1 or nome_utente == user2:
+  password = input("Inserisci password\n")
+  if password == user2 and psw2 or password == user1 and psw1:
+    print(bilancio1 or bilancio2)
+  else: 
+	  input("Password errata.")
+else: 
+	print("Nome utente invalido o inesistente.")
+
+#prova compito 2
+password == psw1 or psw2
+nome_utente == user1 or user2
+
+bilancio1 = user1 and psw1
+bilancio2 = user2 and psw2
+
+
+if nome_utente = user1 or user2:
+	print("Inserisci "password"\n")
+  if password = psw1 or psw2:
+  print("Benvenuto! Questo è il tuo bilancio:")
+else: 
+	print("Nome utente invalido o inesistente.")

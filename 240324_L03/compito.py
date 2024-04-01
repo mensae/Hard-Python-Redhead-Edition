@@ -18,13 +18,60 @@ user2 = "Michelle"
 psw2 = "coprofagia@"
 bilancio2 = 120
 
-if c1:
-	#vera c1
-	if c2: 
-		#vera c2 (ovviamente vera c1)
-	else: 
-		#falsa c2 (ovviamente vera c1)
-else:
-	#falsa c1
-	
 
+nome_utente = input("Benvenuto! Effettua login, inserisci nome utente:\n")
+password = input("Inserisci password:\n")
+
+# verifichi che l'utente sia utente1 e la password corrisponda
+isuser1 = nome_utente == user1 and password == psw1
+isuser2 = nome_utente == user2 and password == psw2
+
+if isuser1 or isuser2:
+	print("")
+	print("Benvenuto/a", nome_utente)
+
+	# scelgo il bilancio basandomi sull'utente
+	if isuser1:
+		bilancio = bilancio1
+	else:
+		bilancio = bilancio2
+	
+	print("Il tuo bilancio è", bilancio)
+	print("")
+	print("")
+	op = input("Prelievo o deposito? (inserire p o d):\n")
+	
+	if op == "p":
+		# codice per il prelievo
+		soldi = input("Quanti soldi vuoi prelevare?\n")
+		soldi = float(soldi)
+		if soldi <= bilancio:
+			nuovobilancio = bilancio - soldi
+			print(nuovobilancio)
+			# aggiorno il bilancio a seconda dell'utente
+			if isuser1:
+				bilancio1 = nuovobilancio
+			else:
+				bilancio2 = nuovobilancio
+		else:
+			print("Sei povero.")
+	elif op == "d":
+		# codice deposito
+		soldi = input("Quanti soldi vuoi depositare?\n")
+		soldi = float(soldi)
+		nuovobilancio = bilancio + soldi
+		print(nuovobilancio)
+		# aggiorno il bilancio a seconda dell'utente
+		if isuser1:
+			bilancio1 = nuovobilancio
+		else:
+			bilancio2 = nuovobilancio
+	else: 
+		print("Operazione inesistente")
+  
+else: 
+	print("Nome utente invalido o inesistente o password sbagliata.")
+
+print("DATABASE BANCA ALLA FINE:")
+print("Enrico: ", bilancio1)
+print("Michelle: ", bilancio2)
