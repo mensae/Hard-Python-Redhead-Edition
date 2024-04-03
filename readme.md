@@ -14,11 +14,22 @@ Completo di compiti settimanali e progetti di varie dimensioni, Hard Python è l
 
 Ogni lezione ha una cartella dedicata, con data e numero di lezione. Ad esempio `240310_L01` è la cartella della lezione 01, tenutasi in data 24/03/10.
 
-### Lezione 1 (10/03/24)
-Dopo una breve introduzione teorica al mondo della programmazione abbiamo introdotto l'importante nozione di variabili. [Qui](https://docs.google.com/presentation/d/1UDXe4_JFKnt1ZC8086X8FvhXSowhE8hgEYBpabudeCI/edit?usp=sharing) le slides introduttive.
+### Lezione 4 (30/03/24)
+Abbiamo corretto il compito della lezione 3, mostrando come usare gli `if` in maniera efficace. Abbiamo anche introdotto alcune funzioni utili per trattare con le stringhe (`len`, `in`, `startswith`, ecc).
+
+### Lezione 3 (24/03/24)
+L'importante concetto di control flow è stato introdotto e con esso il costrutto `if`. Abbiamo visto che gli `if` permettono di eseguire sezioni diversi di codice a seconda di una *condizione*. Le condizioni ci hanno dato occasione di introdurre un nuovo tipo di dati, i `boolean` (booleani) e i loro operatori.
+
 
 ### Lezione 2 (17/03/24)
 Abbiamo continuato il discorso sulle variabili introducendo l'importante nozione di tipi (interi `int`, numeri con la virgola `float` e stringhe `str`) e la necessaria funzionalità di casting correlata. Abbiamo introdotto la funzione `input`, che viene usata per chiedere dati ad un utente. Infine, abbiamo imparato che la funzione print può accogliere più parametri.
+
+### Lezione 1 (10/03/24)
+Dopo una breve introduzione teorica al mondo della programmazione abbiamo introdotto l'importante nozione di variabili. [Qui](https://docs.google.com/presentation/d/1UDXe4_JFKnt1ZC8086X8FvhXSowhE8hgEYBpabudeCI/edit?usp=sharing) le slides introduttive.
+
+
+
+
 
 ## Youtube
 Riguarda le [lezioni su Youtube](https://www.youtube.com/playlist?list=PLMP9hIwoX2Du9Mjh_zVQoHngjG0zdxS8F)!
