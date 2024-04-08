@@ -14,6 +14,9 @@ Completo di compiti settimanali e progetti di varie dimensioni, Hard Python è l
 
 Ogni lezione ha una cartella dedicata, con data e numero di lezione. Ad esempio `240310_L01` è la cartella della lezione 01, tenutasi in data 24/03/10.
 
+### Lezione 5 (07/04/24)
+Il concetto di lista è stato introdotto ed è stato visto come creare e modificare liste. Abbiamo poi osservato come le stringhe possano essere trattate come liste e convertite in liste o riconvertite in testo usando `split()` e `join()`. 
+
 ### Lezione 4 (30/03/24)
 Abbiamo corretto il compito della lezione 3, mostrando come usare gli `if` in maniera efficace. Abbiamo anche introdotto alcune funzioni utili per trattare con le stringhe (`len`, `in`, `startswith`, ecc).
 
