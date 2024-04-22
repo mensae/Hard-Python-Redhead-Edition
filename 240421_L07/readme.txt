@@ -1,0 +1,1 @@
+In questa lezione abbiamo corretto gli esercizi della sesta lezione. 

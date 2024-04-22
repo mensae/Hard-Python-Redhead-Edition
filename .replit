@@ -1,5 +1,5 @@
-#entrypoint = "240407_L05/compito.py"
-entrypoint = "240412_L06/main.py"
+#entrypoint = "240421_L07/compito.py"
+entrypoint = "240412_L06/compito.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]

@@ -33,17 +33,26 @@ l2 = [590, 120, 102, 1] #lunghezza e valori variabili
 
 l1 = [l1[0] + max(l2) + min(l2), l1[1] + max(l2) + min(l2)]
 
-
 #############################
-# DA FARE A CASA #
 
 # trovare il valore massimo fra le due liste l1 e l2 => +
 l1 = [1, 5, 10, 1] #lunghezza e valori variabili
 l2 = [12, 3] #lunghezza e valori variabili
 
+l3 = l1 + l2
+print(max(l3))
+print(max(l3))
+
 # creare una lista che contenga nella posizione i-esima il numero di occorrenze di i in l1, sapendo che l1 può avere solo 0, 1 e 2 come valori => count
 l1 = [0, 1, 0, 0, 2, 1, 2, 0] #lunghezza variable, valori variabili ma solo nell'intervallo 0-2
 
+l2 = [l1.count(0), l1.count(1), l1.count(2)]
+print(l2)
+
 # controllare che le due liste siano identiche => reverse tanto per 
 l1 = [1, 5, 10, 1] #lunghezza fissa, valori variabili
-l2 = [1, 5, 10, 1] #lunghezza fissa, valori variabili
+l2 = [1, 5, 10, 2] #lunghezza fissa, valori variabili
+
+uguali = l1[0] == l2[0] and l1[1] == l2[1] and l1[3] == l2[3] and l1[2] == l2[2]
+
+print(uguali)
