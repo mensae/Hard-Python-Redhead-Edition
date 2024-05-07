@@ -14,6 +14,9 @@ Completo di compiti settimanali e progetti di varie dimensioni, Hard Python è l
 
 Ogni lezione ha una cartella dedicata, con data e numero di lezione. Ad esempio `240310_L01` è la cartella della lezione 01, tenutasi in data 24/03/10.
 
+### Lezione 8 (05/05/24)
+Ancora esercizi sulle liste, questa volta orientati alla modifica delle liste anziché alla loro creazione da zero. All'inizio si illustra anche come vengono rappresentate in memoria.  
+
 ### Lezione 7 (21/04/24)
 Una lezione di esercitazioni in cui abbiamo concluso e corretto gli esercizi della lezione 6 orientati alle liste. 
 
