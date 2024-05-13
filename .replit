@@ -1,4 +1,4 @@
-entrypoint = "240505_L08/main.py"
+entrypoint = "240512_L09/main.py"
 #entrypoint = "240412_L06/compito.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 

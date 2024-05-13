@@ -13,4 +13,22 @@ print("Lista maiuscole", lista_maiuscole)
 
 # Modificare la lista parole rendendo maiuscolo l'i-esimo elemento se l'i-esimo elemento di lista_maiuscole è 1
 
-# Costruire poi due liste separate che contengono rispettivamente solo gli elementi maiuscoli e solo gli elementi minuscoli di parole
+parole = ["ciao", "dome", "st", "bl", "pl"]
+lista_maiuscole = [0, 0, 1, 1, 1]
+
+if lista_maiuscole[0] == 1:
+	parole[0] = parole[0].upper()
+	
+if lista_maiuscole[1] == 1:
+	parole[1] = parole[1].upper()
+
+if lista_maiuscole[2] == 1:
+	parole[2] = parole[2].upper()
+
+if lista_maiuscole[3] == 1:
+	parole[3] = parole[3].upper()
+
+if lista_maiuscole[4] == 1:
+	parole[4] = parole[4].upper()
+
+
